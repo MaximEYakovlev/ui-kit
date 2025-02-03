@@ -1,8 +1,8 @@
-# UI Kit (Demo)
+## UI Kit (Demo)
 
 A simple UI Kit built with React and TypeScript.
 
-## Installation
+### Installation
 
 ```sh
 npm install
