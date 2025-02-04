@@ -1,5 +1,6 @@
 import React from 'react';
 import { InputRangeProps } from '../types/inputRange';
+import './InputRange.css';
 
 /**
  * A customizable range input component.
@@ -19,7 +20,7 @@ export const InputRange: React.FC<InputRangeProps> = ({
       max={max}
       step={step}
       onChange={(e) => onChange(Number(e.target.value))}
-      className="w-full cursor-pointer"
+      className="input-range"
     />
   );
 };
