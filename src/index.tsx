@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import "./styles.scss";
+import './styles.scss';
 
 const App = () => {
   return <h1>Hello UI Kit!</h1>;
