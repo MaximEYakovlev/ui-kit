@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'mixins';
+
+.button {
+  @include button-base;
+
+  &--primary {
+    background: $primary-color;
+    color: white;
+
+    &:hover {
+      background: darken($primary-color, 10%);
+    }
+  }
+
+  &--secondary {
+    background: $secondary-color;
+    color: white;
+
+    &:hover {
+      background: darken($secondary-color, 10%);
+    }
+  }
+}
